@@ -1,18 +1,43 @@
 {
-  "name": "gayaza-marketplace",
+  "name": "gayaza-market-online",
   "version": "1.0.0",
-  "main": "node_modules/expo/AppEntry.js",
+  "description": "Gayaza Market Online - A marketplace app for farm produce, electronics, and more",
+  "main": "App.js",
   "scripts": {
     "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web"
   },
   "dependencies": {
-    "expo": "~50.0.0",
-    "react": "18.2.0",
-    "react-native": "0.73.0",
-    "@react-navigation/native": "^6.1.7",
-    "@react-navigation/native-stack": "^6.9.12"
-  }
-}
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-native": "0.64.3",
+    "expo": "^44.0.0",
+    "react-navigation": "^4.4.4",
+    "react-navigation-stack": "^2.10.4",
+    "react-navigation-tabs": "^2.10.0",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-reanimated": "^2.3.0",
+    "react-native-safe-area-context": "^3.1.9",
+    "react-native-screens": "^3.5.0",
+    "react-native-web": "^0.17.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.15.4",
+    "@babel/preset-react": "^7.14.5",
+    "babel-plugin-react-native-web": "^0.17.1"
+  },
+  "expo": {
+    "name": "Gayaza Market Online",
+    "slug": "gayaza-market-online",
+    "platforms": ["ios", "android", "web"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "asset
