@@ -1,3 +1,4 @@
+
 {
   "expo": {
     "name": "Gayaza Market Online",
@@ -13,7 +14,9 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.gayazamarket"
@@ -26,4 +29,4 @@
       "favicon": "./assets/favicon.png"
     }
   }
-}
+} 
