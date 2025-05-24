@@ -1,18 +1,5 @@
 {
   "expo": {
-    "name": "Gayaza Market",
-    "slug": "gayaza-market",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "platforms": ["android"],
-    "sdkVersion": "50.0.0",
-    "android": {
-      "package": "com.innocentowori.gayazamarket"
-    }
-  }
-}
-{
-  "expo": {
     "name": "Gayaza Market Online",
     "slug": "gayaza-market-online",
     "version": "1.0.0",
